@@ -11,7 +11,7 @@ public class HelloFx extends Application{
         stage.setTitle("Hello JavaFX");
         Group group = new Group(new Button("Hello Button"));
         Scene scene = new Scene(group, 300, 300);
-        stage.setScene(scene);
+        stage.setScene(scene); 
         stage.show();
     }
 
